@@ -5,12 +5,14 @@
 pageextension 55000 CustomerListExt extends "Customer List"
 {
     trigger OnOpenPage();
+    var
+        Customer: Record Customer;
     begin
         Message('You are here: %1!', CurrPage.Caption);
 
-        Rec.Reset();
-        if (Rec.FindFirst() = true) then
-            Page.RunModal(Page::"Customer Card", Rec);
+        Customer.Reset();
+        if (Customer.FindFirst() = true) then
+            Page.RunModal(Page::"Customer Card", Customer);
 
         Message('Done');
     end;
