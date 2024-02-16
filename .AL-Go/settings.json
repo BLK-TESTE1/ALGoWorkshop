@@ -4,7 +4,7 @@
   "testFolders": [],
   "bcptTestFolders": [],
   "repoVersion": "23.1",
-  "DeployTo": {
+  "DeployToALGoWorkshop": {
     "continuousDeployment": true
   }
 }
