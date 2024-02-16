@@ -5,6 +5,6 @@
   "bcptTestFolders": [],
   "repoVersion": "23.3",
   "DeployToALGoWorkshop": {
-    "continuousDeployment": true
+    "continuousDeployment": false
   }
 }
