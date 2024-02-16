@@ -7,9 +7,11 @@ pageextension 55000 CustomerListExt extends "Customer List"
     trigger OnOpenPage();
     begin
         Message('You are here: %1!', CurrPage.Caption);
+
         Rec.Reset();
         if (Rec.FindFirst() = true) then
             Page.RunModal(Page::"Customer Card", Rec);
+
         Message('Done');
     end;
 }
