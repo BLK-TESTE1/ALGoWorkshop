@@ -1,10 +1,10 @@
 {
-  "country": "us",
+  "country": "pt",
   "appFolders": [],
   "testFolders": [],
   "bcptTestFolders": [],
   "repoVersion": "23.1",
-    "DeployTo": {
+  "DeployTo": {
     "continuousDeployment": true
   }
 }
