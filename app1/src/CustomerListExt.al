@@ -7,8 +7,9 @@ pageextension 55000 CustomerListExt extends "Customer List"
     trigger OnOpenPage();
     var
         Customer: Record Customer;
+        YouAreHereLbl: Label 'You are here: %1!', Comment = 'PTG="Estás aqui: %1"';
     begin
-        Message('You are here: %1!', CurrPage.Caption);
+        Message(YouAreHereLbl, CurrPage.Caption);
 
         Customer.Reset();
         if (Customer.FindFirst() = true) then
