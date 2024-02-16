@@ -10,7 +10,7 @@
   "help": "",
   "url": "",
   "logo": "",
-  "dependencies": [{"appId": "437dbf0e-84ff-417a-965d-ed2bb9650972","name": "Base Application","publisher": "Microsoft","version": "23.4.15643.16092"}],
+  "dependencies": [],
   "screenshots": [],
   "platform": "1.0.0.0",
   "application": "22.0.0.0",
