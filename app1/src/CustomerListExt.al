@@ -9,7 +9,7 @@ pageextension 55000 CustomerListExt extends "Customer List"
         Message('You are here: %1!', CurrPage.Caption);
         Rec.Reset();
         if (Rec.FindFirst() = true) then
-            Page.RunModal(0, Rec);
+            Page.RunModal(Page::"Customer Card", Rec);
         Message('Done');
     end;
 }
