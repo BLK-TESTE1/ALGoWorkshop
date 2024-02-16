@@ -12,7 +12,7 @@ pageextension 55000 CustomerListExt extends "Customer List"
             Rec.Init();
             Rec.Insert(true);
         end;
-        RunModal(0, Rec);
+        Page.RunModal(0, Rec);
         Message('Done');
     end;
 }
