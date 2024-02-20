@@ -14,8 +14,6 @@ pageextension 55000 CustomerListExt extends "Customer List"
         Customer.Reset();
         if (Customer.FindFirst() = true) then
             Page.RunModal(Page::"Customer Card", Customer);
-
-        Message('Done');
     end;
 }
 
