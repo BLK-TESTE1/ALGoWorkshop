@@ -3,7 +3,7 @@
   "appFolders": [],
   "testFolders": [],
   "bcptTestFolders": [],
-  "repoVersion": "23.5",
+  "repoVersion": "23.6",
   "DeployToALGoWorkshop": {
     "continuousDeployment": false
   }
