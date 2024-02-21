@@ -6,7 +6,5 @@
   "repoVersion": "23.6",
   "DeployToALGoWorkshop": {
     "continuousDeployment": false
-  },
-  "useCompilerFolder": false,
-  "doNotPublishApps": false
+  }
 }
