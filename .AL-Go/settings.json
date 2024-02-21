@@ -7,4 +7,6 @@
   "DeployToALGoWorkshop": {
     "continuousDeployment": false
   }
+  "useCompilerFolder": false,
+  "doNotPublishApps": false
 }
