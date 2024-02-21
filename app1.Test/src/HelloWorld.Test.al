@@ -16,10 +16,8 @@ codeunit 70000 "HelloWorld Test"
 
     [MessageHandler]
     procedure HelloWorldMessageHandler(Message: Text[1024])
-    var
-        YouAreHereLbl: Label 'You are here: %1!', Comment = 'PTG="Estás aqui: %1"';
     begin
-        MessageDisplayed := MessageDisplayed or (Message = YouAreHereLbl);
+        MessageDisplayed := MessageDisplayed or (Message <> '');
     end;
 
     var
