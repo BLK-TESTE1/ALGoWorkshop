@@ -7,11 +7,15 @@ codeunit 70000 "HelloWorld Test"
     procedure TestHelloWorldMessage()
     var
         CustList: TestPage "Customer List";
+        CustCard: TestPage "Customer Card";
     begin
         CustList.OpenView();
         CustList.Close();
         if (not MessageDisplayed) then
             ERROR('Message was not displayed!');
+
+        CustCard.OpenView();
+        CustCard.Close();
     end;
 
     [MessageHandler]
