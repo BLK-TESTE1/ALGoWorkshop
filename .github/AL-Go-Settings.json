@@ -2,6 +2,9 @@
   "type": "PTE",
   "templateUrl": "https://github.com/microsoft/AL-Go-PTE@main",
   "templateSha": "1e6ebb58fc629cc134759f996f9be9ab6ada7fb4",
+  "DeployToALGoWorkshop": {
+    "continuousDeployment": false
+  }
   "CurrentSchedule": "0 2 * * *",
   "NextMinorSchedule": "0 2 * * 6",
   "NextMajorSchedule": "0 2 * * 0"
