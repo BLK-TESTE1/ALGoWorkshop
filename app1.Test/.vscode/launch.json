@@ -1,5 +1,19 @@
 {
     "version": "0.2.0",
     "configurations": [
+        {
+            "name": "ALGoWorkshop",
+            "type": "al",
+            "request": "launch",
+            "environmentType": "Sandbox",
+            "environmentName": "ALGoWorkshop",
+            "breakOnError": "All",
+            "breakOnRecordWrite": "None",
+            "launchBrowser": true,
+            "enableSqlInformationDebugger": true,
+            "enableLongRunningSqlStatements": true,
+            "longRunningSqlStatementsThreshold": 500,
+            "numberOfSqlStatements": 10
+        }
     ]
 }
