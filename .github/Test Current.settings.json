@@ -2,6 +2,6 @@
   "artifact": "////latest",
   "cacheImageName": "",
   "versioningStrategy": 15,
-  useCompilerFolder: "false",
-  doNotPublishApps: "false"
+  "useCompilerFolder": false,
+  "doNotPublishApps": false
 }
