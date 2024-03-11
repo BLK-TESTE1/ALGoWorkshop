@@ -4,5 +4,6 @@
   "templateSha": "1e6ebb58fc629cc134759f996f9be9ab6ada7fb4",
   "DeployToALGoWorkshop": {
     "continuousDeployment": false
-  }
+  },
+  "DeployReferenceDocumentationSchedule": "1 0 1 * *"
 }
