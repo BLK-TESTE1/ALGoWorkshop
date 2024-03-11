@@ -5,5 +5,5 @@
   "DeployToALGoWorkshop": {
     "continuousDeployment": false
   },
-  "DeployReferenceDocumentationSchedule": "1 0 1 * *"
+  "DeployReferenceDocumentationSchedule": "@monthly"
 }
